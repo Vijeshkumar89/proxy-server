@@ -41,9 +41,9 @@ The proxy listens on port 8888.
 
 HTTP request: curl -x http://localhost:8888 http://example.com
 
-Blocked domain: curl -x http://localhost:8888 http://google.com
+Blocked domain: curl -x http://localhost:8888 http://example.com
 
-HTTPS request: curl -x http://localhost:8888 https://www.google.com
+HTTPS request: curl -x http://localhost:8888 https://www.example.com
 
 ---
 
@@ -63,3 +63,14 @@ Each entry contains:
 - Design: `docs/design.md`
 - Testing: `tests/TESTING.md`
 
+---
+
+## Video Demonstration
+
+A complete video demonstration of the proxy server features, including
+HTTP forwarding, domain blocking, logging, HTTPS CONNECT support, and
+concurrent request handling, is available at the link below:
+
+📽️ Video Demo: https://drive.google.com/file/d/1pm3voQjNXyd5nsM45q-Xi3xVCZqjwXLL/view?usp=drive_link
+
+---
