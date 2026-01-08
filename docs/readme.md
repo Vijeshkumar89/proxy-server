@@ -16,6 +16,7 @@ requests to the destination server.
 
 ---
 
+```
 ## Directory Structure
 proxy-project/
 ├── src/
