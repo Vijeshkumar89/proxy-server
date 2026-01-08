@@ -16,8 +16,8 @@ requests to the destination server.
 
 ---
 
-```
 ## Directory Structure
+```
 proxy-project/
 ├── src/
 ├── include/
@@ -25,7 +25,7 @@ proxy-project/
 ├── docs/
 ├── tests/
 ├── setup.py
-
+```
 ---
 
 ## Execution
